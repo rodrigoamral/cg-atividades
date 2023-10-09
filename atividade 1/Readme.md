@@ -19,6 +19,7 @@
 ## Documentação
 - A documentação foi gerada através da ferramenta Sphinx.
 - Está disponivel no diretório './documentacao/_build/html/index.html'. Basta fazer download do projeto e executar o arquivo index.html para vizualização da página da documentação.
+- Link da documentação : https://rodrigoamral.github.io/cg-atividades/atividade%201/documentacao/_build/html/index.html
 
 
 
