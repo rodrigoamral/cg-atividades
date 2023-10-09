@@ -12,6 +12,9 @@
   - Recebe 3 parâmetros : matriz, nome do arquivo e formato do arquivo.
   - Atráves do método 'cv2.convertScaleAbs' converte a matriz em uma imagem.
   - Com o método 'cv2.imWrite' salva a imagem com o nome e formato solicitado.
+
+- Executando
+  - Ao executar o código foram geradas as imagens 'circulo.png', 'triangulo.png' e 'quadrado.png'.
  
 ## Documentação
 - A documentação foi gerada através da ferramenta Sphinx.
