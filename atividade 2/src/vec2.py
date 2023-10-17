@@ -71,4 +71,5 @@ class vec4:
             raise ZeroDivisionError("divisão por zero")
         return vec4(v.x/length, v.y/length)
     
+ 
     
