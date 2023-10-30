@@ -7,6 +7,7 @@ class leitorObj:
 
     def load_model(self):
         vertices = []
+        faces = []
         with open(self.obj_file, 'r') as file:
             for line in file:
                 tokens = line.strip().split()
@@ -14,8 +15,12 @@ class leitorObj:
                     if tokens[0] == 'v':
                         vertex = list(map(float, tokens[1:]))
                         vertices.append(vertex)
+                    elif tokens[0] == 'f':
+                        face = [int(token.split('/')[0]) for token in tokens[1:]]
+                        faces.append(face)
 
         self.vertices = np.array(vertices)
+        self.faces = np.array(faces)
 
     def get_vertices(self):
         if self.vertices is None:
