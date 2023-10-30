@@ -1,0 +1,7 @@
+# Vértices do triângulo
+v 0.0 0.0 0.0
+v 1.0 0.0 0.0
+v 0.5 1.0 0.0
+
+# Faces do triângulo
+f 1 2 3
