@@ -28,4 +28,5 @@
     - Retornar a matriz como uma string.
     - Calcular o determinante de uma matriz.
     - Calcular a matriz inversa.
-    
+
+- A pasta src possue os códigos de cada classe e a pasta test possui os testes unitários feitos para testar as funcionalidades de cada uma.
