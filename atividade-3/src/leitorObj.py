@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class leitorObj:
     def __init__(self, obj_file):
         self.obj_file = obj_file
